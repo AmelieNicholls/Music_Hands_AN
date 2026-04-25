@@ -17,7 +17,7 @@ function preload() {
   bass = loadSound('audio/Bass_Layer.wav');
   chords = loadSound('audio/Chords_Layer.wav');
   melody = loadSound('audio/Melody_Layer.wav');
-  fx = loadSound('audio/Fx_Layer.wav');
+  fx = loadSound('audio/FX_Layer.wav');
 }
 
 //recieve hand data from ml5 library and store
