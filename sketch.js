@@ -13,11 +13,11 @@ function preload() {
   handPose = ml5.handPose({ flipped: true });
 
   soundFormats('wav');
-  drums = loadSound('audio/drums_layer.wav');
-  bass = loadSound('audio/bass_layer.wav');
-  chords = loadSound('audio/chords_layer.wav');
-  melody = loadSound('audio/melody_layer.wav');
-  fx = loadSound('audio/fx_layer.wav');
+  drums = loadSound('audio/Drums_Layer.wav');
+  bass = loadSound('audio/Bass_Layer.wav');
+  chords = loadSound('audio/Chords_Layer.wav');
+  melody = loadSound('audio/Melody_Layer.wav');
+  fx = loadSound('audio/Fx_Layer.wav');
 }
 
 //recieve hand data from ml5 library and store
